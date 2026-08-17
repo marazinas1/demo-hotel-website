@@ -93,7 +93,7 @@ export function propertyLd(
     address: {
       "@type": "PostalAddress",
       streetAddress: property.address ?? undefined,
-      addressLocality: property.city ?? "Telšiai",
+      addressLocality: property.city ?? "Klaipėda",
       addressCountry: "LT",
     },
     ...(property.price_per_night ? { priceRange: `nuo ${property.price_per_night} €` } : {}),

@@ -2,9 +2,9 @@ import { useEffect, useRef } from "react";
 import { Map as MapLibreMap, Marker, NavigationControl } from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 
-const COORDS: [number, number] = [22.248996, 55.983649];
+const COORDS: [number, number] = [21.135, 55.705];
 
-/** Client-only monochrome Carto map with a sage ensō marker. */
+/** Client-only monochrome Carto map with a sage ring marker. */
 export default function LocationMap() {
   const containerRef = useRef<HTMLDivElement | null>(null);
 
@@ -44,7 +44,7 @@ export default function LocationMap() {
       map.addControl(new NavigationControl({ showCompass: false }), "bottom-right");
 
       const el = document.createElement("div");
-      el.setAttribute("aria-label", "Baltic Stay – Birutės g. 1, Telšiai");
+      el.setAttribute("aria-label", "Baltic Stay – Jūros g. 12, Klaipėda");
       el.style.width = "44px";
       el.style.height = "44px";
       el.innerHTML = `

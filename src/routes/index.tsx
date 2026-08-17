@@ -32,9 +32,9 @@ export const Route = createFileRoute("/")({
           telephone: "+37065911929",
           address: {
             "@type": "PostalAddress",
-            streetAddress: "Birutės g. 1",
-            addressLocality: "Telšiai",
-            postalCode: "87130",
+            streetAddress: "Jūros g. 12",
+            addressLocality: "Klaipėda",
+            postalCode: "91234",
             addressCountry: "LT",
           },
           priceRange: "€€",

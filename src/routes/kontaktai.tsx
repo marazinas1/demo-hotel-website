@@ -34,9 +34,9 @@ export const Route = createFileRoute("/kontaktai")({
           telephone: contact.phones.map((phone) => phone.replace(/\s/g, "")),
           address: {
             "@type": "PostalAddress",
-            streetAddress: "Birutės g. 1",
-            addressLocality: "Telšiai",
-            postalCode: "87130",
+            streetAddress: "Jūros g. 12",
+            addressLocality: "Klaipėda",
+            postalCode: "91234",
             addressCountry: "LT",
           },
           priceRange: "€€",
