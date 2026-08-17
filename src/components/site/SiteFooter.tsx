@@ -16,7 +16,7 @@ export function SiteFooter() {
           <div>
             <Ring className="h-9 w-9 text-warm-white/60" />
             <Link to="/" aria-label="Baltic Stay — į pradžią" className="mt-5 inline-flex">
-              <Logo className="h-24 w-24 text-warm-white" />
+              <Logo className="h-16 text-warm-white" />
             </Link>
             <p className="mt-3 max-w-xs text-sm leading-relaxed text-warm-white/70">
               {common.footer.intro}

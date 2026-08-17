@@ -6,7 +6,7 @@ import { ExtrasSection } from "@/components/home/ExtrasSection";
 import { Hero } from "@/components/home/Hero";
 import { IntroStrip } from "@/components/home/IntroStrip";
 import { LocationSection } from "@/components/home/LocationSection";
-import { Ratings } from "@/components/home/Ratings";
+import { DirectBooking } from "@/components/home/DirectBooking";
 import { StaysSection } from "@/components/home/StaysSection";
 import { pageHead } from "@/lib/seo";
 import { SITE_URL } from "@/data/nav";
@@ -66,7 +66,7 @@ function Index() {
       <StaysSection {...(properties ? { initialProperties: properties } : {})} />
       <LocationSection />
       <ExtrasSection />
-      <Ratings />
+      <DirectBooking />
       <BookingBand />
     </>
   );
