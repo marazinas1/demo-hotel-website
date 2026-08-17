@@ -1,8 +1,8 @@
 import { Link } from "@tanstack/react-router";
 import { useEffect, useRef } from "react";
 
-import heroImage from "@/assets/hero-telsiai-lake.jpg";
-import heroImageWebp from "@/assets/hero-telsiai-lake.webp";
+import heroImage from "@/assets/hero-coast.jpg";
+import heroImageWebp from "@/assets/hero-coast.webp";
 import { Ring } from "@/components/site/Ring";
 import { AVAILABILITY_SECTION_ID, scrollToId } from "@/lib/scroll-to";
 
@@ -45,7 +45,7 @@ export function Hero() {
         <source srcSet={heroImageWebp} type="image/webp" />
         <img
           src={heroImage}
-          alt="Telšių senamiesčio gatvė su istoriniais pastatais vasaros popietę"
+          alt="Rami pajūrio senamiesčio gatvė su akmenimis grįstu keliu ir jūra tolumoje"
           width={2560}
           height={1440}
           fetchPriority="high"
@@ -60,13 +60,13 @@ export function Hero() {
         className="hero-fade relative mx-auto flex min-h-[92vh] max-w-7xl flex-col justify-end px-6 pb-24 pt-40 lg:px-12 lg:pb-32"
       >
         <div className="max-w-2xl">
-          <p className="label-caps text-warm-white/75">Telšiai · Žemaitija</p>
+          <p className="label-caps text-warm-white/75">Pajūris · Senamiestis</p>
           <h1 className="mt-6 font-display text-[clamp(2.75rem,6.5vw,4.25rem)] leading-[1.08] font-medium text-warm-white">
-            Apartamentai Telšių senamiestyje
+            Apartamentai ir kambariai prie jūros
           </h1>
           <p className="mt-6 max-w-xl text-base leading-relaxed text-warm-white/85 sm:text-lg">
-            Šalia pagrindinės aikštės, keli žingsniai nuo Masčio ežero. Vieta trumpam sustoti
-            Žemaitijos širdyje.
+            Ramiose senamiesčio gatvelėse, trumpas pasivaikščiojimas iki kranto. Vieta trumpam
+            sustoti.
           </p>
 
           <div className="mt-10 flex flex-wrap items-center gap-4">

@@ -11,9 +11,9 @@ export function IntroStrip() {
             Iš namų į namus.
           </p>
           <p className="mt-6 text-base leading-[1.75] text-stone sm:text-lg">
-            Baltic Stay apartamentai įsikūrę pačioje Telšių širdyje, Birutės gatvėje, šalia
-            pagrindinės aikštės. Juos kūrėme taip, kad atvykę svečiai pasijustų lyg namuose —
-            ramiai, jaukiai ir be rūpesčių.
+            Baltic Stay kambariai ir apartamentai įsikūrę ramiame pajūrio senamiestyje, netoli
+            kranto. Juos kūrėme taip, kad atvykę svečiai pasijustų lyg namuose — ramiai, jaukiai ir
+            be rūpesčių.
           </p>
         </Reveal>
       </div>
