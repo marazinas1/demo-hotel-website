@@ -27,7 +27,7 @@ export const rezervacija = {
     "Banko rekvizitų nepavyko įkelti. Susisiekite su mumis ir juos atsiųsime el. paštu.",
   emailNote:
     "Patvirtinimą ir visą informaciją netrukus gausite el. paštu. Jei laiško nematote, patikrinkite šlamšto aplanką.",
-  contactNote: "Turite klausimų? Skambinkite +370 659 11 929 arba rašykite info@balticstay.lt.",
+  contactNote: "Turite klausimų? Skambinkite +370 600 00000 arba rašykite info@balticstay.lt.",
   back: "Grįžti į pradžią",
   missingTitle: "Rezervacijos duomenų nerandame",
   missingText:
