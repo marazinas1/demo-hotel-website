@@ -1,14 +1,14 @@
 export const kontaktai = {
-  seoTitle: "Kontaktai — Baltic Stay Telšiai",
+  seoTitle: "Kontaktai — Baltic Stay",
   seoDescription:
-    "Baltic Stay kontaktai: Birutės g. 1, Telšiai 87130, tel. +370 659 11 929, +370 604 98 915, info@balticstay.lt.",
+    "Baltic Stay kontaktai: Jūros g. 12, Klaipėda 91234, tel. +370 600 00000, info@balticstay.lt.",
   eyebrow: "Kontaktai",
   title: "Susisiekime",
   lead: "Rezervacijos, klausimai dėl pirties, salės ar kuponų – atsakome kasdien.",
   phonesLabel: "Telefonai",
   emailLabel: "El. paštas",
   addressLabel: "Adresas",
-  cottageNote: "Namelis su pirtimi ir kubilu: Gražinos g. 1, Telšiai.",
+  cottageNote: "Registratūra veikia kasdien 8:00–21:00.",
 };
 
 export const kontaktaiForm = {

@@ -1,5 +1,5 @@
 export const taisykles = {
-  seoTitle: "Apgyvendinimo taisyklės — Baltic Stay Telšiai",
+  seoTitle: "Apgyvendinimo taisyklės — Baltic Stay",
   seoDescription:
     "Baltic Stay apgyvendinimo taisyklės: atvykimo ir išvykimo laikas, rezervacijos sąlygos, tyla, rūkymas, gyvūnai ir atsiskaitymas.",
   eyebrow: "Apie",
@@ -17,7 +17,7 @@ export const taisykles = {
     {
       title: "Rezervacija ir atsiskaitymas",
       items: [
-        "Rezervacija patvirtinama susisiekus telefonu arba el. paštu.",
+        "Rezervacija patvirtinama gavus apmokėjimą arba susisiekus telefonu ir el. paštu.",
         "Atsiskaityti galima grynaisiais arba pavedimu.",
         "Atšaukus likus mažiau nei parai, gali būti taikomas vienos nakties mokestis.",
       ],
@@ -32,7 +32,7 @@ export const taisykles = {
       ],
     },
     {
-      title: "Pirtis ir kubilas",
+      title: "SPA ir pirtis",
       items: [
         "Pirtis (40 €) ir kubilas (50 €) užsakomi iš anksto, nurodant pageidaujamą laiką.",
         "Naudotis pirtimi ir kubilu galima tik blaiviems ir suaugusiems svečiams.",

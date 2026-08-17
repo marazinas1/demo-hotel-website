@@ -1,29 +1,29 @@
 export const apie = {
-  seoTitle: "Apie Baltic Stay — apgyvendinimas Telšių senamiestyje",
+  seoTitle: "Apie Baltic Stay — apgyvendinimas prie jūros",
   seoDescription:
-    "Baltic Stay istorija: senamiesčio namas Birutės gatvėje, apartamentai, namelis su pirtimi ir svetingumas iš namų į namus.",
+    "Baltic Stay: nedidelis viešbutis pajūrio miestelio senamiestyje – kambariai, apartamentai, restoranas ir pirtis.",
   eyebrow: "Apie",
   title: "Iš namų į namus",
-  lead: "Baltic Stay – nedidelė vieta Telšių senamiestyje, kurioje svečias jaučiasi kaip pas savus.",
+  lead: "Baltic Stay – nedidelė vieta pajūrio senamiestyje, kurioje svečias jaučiasi kaip pas savus.",
   sections: [
     {
-      title: "Namas prie aikštės",
+      title: "Namas senamiestyje",
       body: [
-        "Birutės g. 1 stovi senas Telšių namas, kurį atnaujinome neskubėdami – palikome storas sienas ir šviesius langus, o viduje sudėliojome ramius apartamentus.",
-        "Kiekvienas butas turi savo virtuvę ir vonią, todėl čia galima gyventi savaitgalį arba visą mėnesį.",
+        "Senas jūrinio miestelio namas, kurį atnaujinome neskubėdami – palikome storas sienas ir šviesius langus, o viduje sudėliojome ramius kambarius ir apartamentus.",
+        "Dalis apartamentų turi savo virtuvę ir vonią, todėl čia galima gyventi savaitgalį arba visą mėnesį.",
       ],
     },
     {
       title: "Ramybė, o ne paslaugų sąrašas",
       body: [
-        "Netriukšmaujame ir nesiūlome to, ko nereikia. Vietoje registratūros – asmeniškas sutikimas, vietoje standartinių pusryčių – restobaras kieme.",
-        "Norintiems ilgesnio vakaro – namelis su pirtimi ir kubilu Gražinos gatvėje.",
+        "Netriukšmaujame ir nesiūlome to, ko nereikia. Vietoje ilgos registratūros eilės – asmeniškas sutikimas, vietoje standartinių pusryčių – restoranas name.",
+        "Norintiems ilgesnio vakaro – SPA erdvė su pirtimi ir lauko kubilu.",
       ],
     },
     {
-      title: "Telšiai aplinkui",
+      title: "Jūra aplinkui",
       body: [
-        "Masčio ežeras – keli šimtai metrų, senamiestis – už durų, Žemaitija – aplink. Tai miestas, kuriame laikas eina lėčiau, ir mums tai patinka.",
+        "Iki kopų ir kranto – trumpas pasivaikščiojimas, senamiestis – už durų, aplink – ramios gatvės ir pušynas. Miestelis, kuriame laikas eina lėčiau.",
       ],
     },
   ],
