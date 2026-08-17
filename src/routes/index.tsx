@@ -12,9 +12,9 @@ import { pageHead } from "@/lib/seo";
 import { SITE_URL } from "@/data/nav";
 import { propertiesQuery } from "@/lib/property-queries";
 
-const title = "Baltic Stay — apartamentai ir namelis Telšiuose";
+const title = "Baltic Stay — apartamentai ir kambariai prie jūros";
 const description =
-  "Boutique apgyvendinimas Telšių senamiestyje: apartamentai, apartamentai su terasa ir namelis su pirtimi bei kubilu. Rezervuokite tiesiogiai.";
+  "Boutique apgyvendinimas pajūrio senamiestyje: kambariai, apartamentai su terasa ir namelis su pirtimi bei kubilu. Rezervuokite tiesiogiai.";
 
 export const Route = createFileRoute("/")({
   head: () => ({

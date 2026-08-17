@@ -6,7 +6,7 @@ import { Reveal } from "@/components/site/Reveal";
 const extras = [
   {
     icon: UtensilsCrossed,
-    title: "Restobaras",
+    title: "Restoranas",
     text: "Pusryčiai ir vakarienė čia pat, viešnagės vietoje.",
   },
   { icon: Flame, title: "Pirtis", text: "Šiluma po ilgos dienos. 40 €." },
