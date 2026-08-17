@@ -12,7 +12,7 @@ import { useEffect, type ReactNode } from "react";
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
 import { BookingProvider } from "@/components/site/BookingDialog";
-import { Enso } from "@/components/site/Enso";
+import { Ring } from "@/components/site/Ring";
 import { SiteFooter } from "@/components/site/SiteFooter";
 import { SiteHeader } from "@/components/site/SiteHeader";
 
@@ -20,7 +20,7 @@ function NotFoundComponent() {
   return (
     <div className="flex min-h-[70vh] items-center justify-center bg-linen px-6 py-32">
       <div className="max-w-md text-center">
-        <Enso className="mx-auto h-12 w-12 text-sage/70" />
+        <Ring className="mx-auto h-12 w-12 text-sage/70" />
         <p className="label-caps mt-8 text-stone">404</p>
         <h1 className="mt-4 font-display text-[clamp(2rem,4.5vw,2.75rem)] font-medium text-ink">
           Puslapio nėra
@@ -91,11 +91,11 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Dharma Stay" },
-      { name: "description", content: "Boutique apgyvendinimas Telšių senamiestyje." },
-      { name: "author", content: "Dharma Stay" },
+      { title: "Baltic Stay" },
+      { name: "description", content: "Boutique apgyvendinimas pajūrio senamiestyje." },
+      { name: "author", content: "Baltic Stay" },
       { property: "og:type", content: "website" },
-      { property: "og:site_name", content: "Dharma Stay" },
+      { property: "og:site_name", content: "Baltic Stay" },
       { name: "twitter:card", content: "summary_large_image" },
       { property: "og:locale", content: "lt_LT" },
     ],
@@ -104,7 +104,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         rel: "stylesheet",
         href: appCss,
       },
-      { rel: "icon", href: "/favicon.png", type: "image/png" },
+      { rel: "icon", href: "/favicon.svg", type: "image/svg+xml" },
     ],
   }),
   shellComponent: RootShell,

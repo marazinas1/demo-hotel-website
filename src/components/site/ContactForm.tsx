@@ -76,7 +76,7 @@ export function ContactForm() {
     setValues((current) => ({ ...current, [key]: value }));
 
   const mailtoHref = `mailto:${contact.email}?subject=${encodeURIComponent(
-    "Užklausa iš dharmastay.lt",
+    "Užklausa iš balticstay.lt",
   )}&body=${encodeURIComponent(`${values.message}\n\n${values.name}\n${values.phone}`)}`;
 
   const handleSubmit = async (event: React.FormEvent) => {

@@ -1,7 +1,7 @@
-/** Single source of truth for Dharma Stay contact details. */
+/** Single source of truth for Baltic Stay contact details. */
 export const contact = {
-  address: "Birutės g. 1, Telšiai 87130",
-  phones: ["+370 659 11 929", "+370 604 98 915"],
-  email: "info@dharmastay.lt",
-  mapUrl: "https://maps.google.com/?q=Birut%C4%97s+g.+1,+Tel%C5%A1iai",
+  address: "Jūros g. 12, Klaipėda 91234",
+  phones: ["+370 600 00000", "+370 600 00001"],
+  email: "info@balticstay.lt",
+  mapUrl: "https://maps.google.com/?q=J%C5%ABros+g.+12,+Klaip%C4%97da",
 };

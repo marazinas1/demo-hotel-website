@@ -1,15 +1,15 @@
 export const apartamentai = {
-  seoTitle: "Apartamentai Telšiuose — Dharma Stay",
+  seoTitle: "Apartamentai ir kambariai — Baltic Stay",
   seoDescription:
-    "Trys apgyvendinimo variantai Telšiuose: standartiniai apartamentai, apartamentai su terasa ir namelis su pirtimi bei kubilu. Nuo 40 €.",
+    "Baltic Stay apgyvendinimo variantai prie jūros: kambariai, apartamentai su terasa ir namelis su pirtimi. Rezervuokite tiesiogiai.",
   eyebrow: "Apgyvendinimas",
-  title: "Apartamentai ir namelis",
-  lead: "Trys skirtingi būdai pabūti Telšiuose – nuo ramaus buto senamiestyje iki namelio su pirtimi.",
+  title: "Apartamentai ir kambariai",
+  lead: "Keli skirtingi būdai pabūti prie jūros – nuo ramaus kambario senamiestyje iki namelio su pirtimi.",
   note: "Visos rezervacijos vyksta tiesiogiai, be tarpininkų ir be papildomų komisinių.",
   clearFilter: "Visi apartamentai",
   filteredLead: (label: string) =>
-    `Visi „${label}“ variantai Telšiuose – pasirinkite tinkamą ir rezervuokite tiesiogiai.`,
-  filteredSeoTitle: (label: string) => `${label} Telšiuose — Dharma Stay`,
+    `Visi „${label}“ variantai – pasirinkite tinkamą ir rezervuokite tiesiogiai.`,
+  filteredSeoTitle: (label: string) => `${label} — Baltic Stay`,
   filteredSeoDescription: (label: string) =>
-    `${label} Dharma Stay Telšiuose. Peržiūrėkite laisvas datas ir rezervuokite tiesiogiai, be tarpininkų.`,
+    `${label} Baltic Stay viešbutyje. Peržiūrėkite laisvas datas ir rezervuokite tiesiogiai, be tarpininkų.`,
 };

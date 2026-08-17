@@ -14,7 +14,7 @@ import {
   type BookingDates,
   type BookingProperty,
 } from "@/components/site/booking-context";
-import { Enso } from "@/components/site/Enso";
+import { Ring } from "@/components/site/Ring";
 import {
   Dialog,
   DialogContent,
@@ -372,12 +372,12 @@ export function BookingProvider({ children }: { children: ReactNode }) {
         <DialogContent className="max-h-[90vh] overflow-y-auto rounded-2xl border-border bg-warm-white p-0 sm:max-w-lg">
           <div className="p-6 sm:p-8">
             <DialogHeader className="space-y-3 text-left">
-              <Enso className="h-8 w-8" />
+              <Ring className="h-8 w-8" />
               <DialogTitle className="font-display text-2xl font-medium text-ink">
                 Tikrinti laisvas datas
               </DialogTitle>
               <DialogDescription className="text-stone">
-                Rezervacija vyksta čia, Dharma Stay svetainėje. Apmokėjimas – banko
+                Rezervacija vyksta čia, Baltic Stay svetainėje. Apmokėjimas – banko
                 pavedimu, rekvizitus parodysime iš karto po rezervacijos.
               </DialogDescription>
             </DialogHeader>

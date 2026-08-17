@@ -3,7 +3,7 @@
  * serialized to `lt.json` and mirrored as `en.json` / `ru.json` later.
  */
 export const common = {
-  brand: "Dharma Stay",
+  brand: "Baltic Stay",
   tagline: "Iš namų į namus.",
   cta: {
     book: "Rezervuoti",
@@ -21,9 +21,9 @@ export const common = {
     standard: "Standartiniai apartamentai",
     terrace: "Apartamentai su terasa ir vaizdu į miesto centrą",
     cottage: "Namelis su pirtimi ir kubilu",
-    restobar: "Restobaras",
-    banquet: "Banketinė salė",
-    sauna: "Sauna",
+    restaurant: "Restoranas",
+    events: "Renginiai",
+    spa: "SPA ir pirtis",
     vouchers: "Dovanų kuponai",
     contacts: "Kontaktai",
     more: "Daugiau",
@@ -121,7 +121,7 @@ export const common = {
     consentError: "Norėdami tęsti, patvirtinkite sutikimą su taisyklėmis.",
   },
   footer: {
-    intro: "Apgyvendinimas Telšių senamiestyje. Iš namų į namus.",
+    intro: "Apgyvendinimas pajūrio senamiestyje. Iš namų į namus.",
     rights: "Rezervacijos tiesiogiai, be tarpininkų.",
   },
   availabilityBand: {

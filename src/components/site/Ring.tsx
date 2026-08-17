@@ -1,10 +1,10 @@
 import { cn } from "@/lib/utils";
 
 /**
- * Dharma Stay signature element: a thin, slightly open circle (ensō hint).
- * Reused as section divider, icon frame and accent — never decoratively religious.
+ * Signature geometric mark: a thin, slightly open circle.
+ * Reused as section divider, icon frame and accent throughout the site.
  */
-export function Enso({
+export function Ring({
   className,
   strokeWidth = 1,
 }: {
@@ -30,17 +30,17 @@ export function Enso({
   );
 }
 
-export function EnsoDivider({ className }: { className?: string }) {
+export function RingDivider({ className }: { className?: string }) {
   return (
     <div className={cn("flex items-center justify-center gap-6", className)} role="presentation">
       <span className="h-px w-16 bg-clay/50 sm:w-24" />
-      <Enso className="h-7 w-7 text-sage/70" />
+      <Ring className="h-7 w-7 text-sage/70" />
       <span className="h-px w-16 bg-clay/50 sm:w-24" />
     </div>
   );
 }
 
-export function EnsoFrame({
+export function RingFrame({
   children,
   className,
 }: {
@@ -49,7 +49,7 @@ export function EnsoFrame({
 }) {
   return (
     <span className={cn("relative inline-grid h-16 w-16 place-items-center", className)}>
-      <Enso className="absolute inset-0 h-full w-full text-sage/60" />
+      <Ring className="absolute inset-0 h-full w-full text-sage/60" />
       <span className="relative">{children}</span>
     </span>
   );

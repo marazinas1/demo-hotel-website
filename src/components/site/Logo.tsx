@@ -1,26 +1,22 @@
-import logoUrl from "@/assets/logo-dharma.png";
 import { cn } from "@/lib/utils";
 
 /**
- * Dharma Stay badge logo. The source PNG carries the mark in its alpha channel,
- * so it is painted with `currentColor` via a CSS mask — one file, any color.
+ * Baltic Stay typographic wordmark. Pure type in the display face and
+ * `currentColor`, so it works white over the hero, ink on the solid header
+ * and white in the footer without any asset.
  */
-export function Logo({ className, title = "Dharma Stay" }: { className?: string; title?: string }) {
+export function Logo({ className, title = "Baltic Stay" }: { className?: string; title?: string }) {
   return (
     <span
       role="img"
       aria-label={title}
-      className={cn("block aspect-square bg-current", className)}
-      style={{
-        WebkitMaskImage: `url(${logoUrl})`,
-        maskImage: `url(${logoUrl})`,
-        WebkitMaskRepeat: "no-repeat",
-        maskRepeat: "no-repeat",
-        WebkitMaskSize: "contain",
-        maskSize: "contain",
-        WebkitMaskPosition: "center",
-        maskPosition: "center",
-      }}
-    />
+      className={cn(
+        "inline-flex flex-col justify-center font-display leading-[1.05] text-current",
+        className,
+      )}
+    >
+      <span className="text-[1.6rem] font-medium tracking-[0.34em]">BALTIC</span>
+      <span className="text-[1.6rem] font-medium tracking-[0.34em]">STAY</span>
+    </span>
   );
 }

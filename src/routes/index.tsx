@@ -6,15 +6,15 @@ import { ExtrasSection } from "@/components/home/ExtrasSection";
 import { Hero } from "@/components/home/Hero";
 import { IntroStrip } from "@/components/home/IntroStrip";
 import { LocationSection } from "@/components/home/LocationSection";
-import { Ratings } from "@/components/home/Ratings";
+import { DirectBooking } from "@/components/home/DirectBooking";
 import { StaysSection } from "@/components/home/StaysSection";
 import { pageHead } from "@/lib/seo";
 import { SITE_URL } from "@/data/nav";
 import { propertiesQuery } from "@/lib/property-queries";
 
-const title = "Dharma Stay — apartamentai ir namelis Telšiuose";
+const title = "Baltic Stay — apartamentai ir kambariai prie jūros";
 const description =
-  "Boutique apgyvendinimas Telšių senamiestyje: apartamentai, apartamentai su terasa ir namelis su pirtimi bei kubilu. Rezervuokite tiesiogiai.";
+  "Boutique apgyvendinimas pajūrio senamiestyje: kambariai, apartamentai su terasa ir namelis su pirtimi bei kubilu. Rezervuokite tiesiogiai.";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -25,16 +25,16 @@ export const Route = createFileRoute("/")({
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "LodgingBusiness",
-          name: "Dharma Stay",
+          name: "Baltic Stay",
           url: SITE_URL,
           description,
-          email: "info@dharmastay.lt",
+          email: "info@balticstay.lt",
           telephone: "+37065911929",
           address: {
             "@type": "PostalAddress",
-            streetAddress: "Birutės g. 1",
-            addressLocality: "Telšiai",
-            postalCode: "87130",
+            streetAddress: "Jūros g. 12",
+            addressLocality: "Klaipėda",
+            postalCode: "91234",
             addressCountry: "LT",
           },
           priceRange: "€€",
@@ -66,7 +66,7 @@ function Index() {
       <StaysSection {...(properties ? { initialProperties: properties } : {})} />
       <LocationSection />
       <ExtrasSection />
-      <Ratings />
+      <DirectBooking />
       <BookingBand />
     </>
   );

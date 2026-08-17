@@ -2,9 +2,9 @@ import { lazy, Suspense } from "react";
 import { ClientOnly } from "@tanstack/react-router";
 import { MapPin } from "lucide-react";
 
-import locationImage from "@/assets/location-telsiai-aerial.jpg";
-import locationImageWebp from "@/assets/location-telsiai-aerial.webp";
-import { EnsoDivider } from "@/components/site/Enso";
+import locationImage from "@/assets/location-town.jpg";
+import locationImageWebp from "@/assets/location-town.webp";
+import { RingDivider } from "@/components/site/Ring";
 import { Reveal } from "@/components/site/Reveal";
 import { contact } from "@/data/contact";
 
@@ -18,21 +18,21 @@ export function LocationSection() {
   return (
     <section id="vieta" className="scroll-mt-24 bg-warm-white px-6 py-24 lg:px-12 lg:py-32">
       <div className="mx-auto max-w-7xl">
-        <EnsoDivider className="mb-16" />
+        <RingDivider className="mb-16" />
 
         <div className="grid items-center gap-14 lg:grid-cols-2">
           <Reveal direction="left">
             <p className="label-caps text-sage">Vieta</p>
             <h2 className="mt-4 font-display text-[clamp(2rem,4.5vw,2.625rem)] leading-tight font-medium text-ink">
-              Telšiuose, prie pat aikštės
+              Senamiestyje, netoli jūros
             </h2>
             <div className="mt-6 space-y-4 text-base leading-[1.75] text-stone sm:text-lg">
               <p>
-                Apartamentai — Birutės gatvėje, vos keli žingsniai nuo pagrindinės Turgaus
-                aikštės, Švč. Mergelės Marijos bažnyčios ir turizmo informacijos centro.
+                Namas stovi ramioje senamiesčio gatvėje – vos keli žingsniai iki pagrindinės
+                aikštės, kavinių ir turizmo informacijos centro.
               </p>
-              <p>Iki Masčio ežero — keli šimtai metrų. Šalia netrūksta kavinių ir restoranų.</p>
-              <p>Aplinkui — Žemaitija: ramesnis miestas, artima gamta ir neskubantis laikas.</p>
+              <p>Iki kranto ir kopų – trumpas pasivaikščiojimas pro medžiais apaugusias gatveles.</p>
+              <p>Aplinkui – pajūris: ramesnis miestas, artima gamta ir neskubantis laikas.</p>
             </div>
 
             <div className="mt-8 flex items-start gap-3 text-sm text-stone">
@@ -55,7 +55,7 @@ export function LocationSection() {
                 <source srcSet={locationImageWebp} type="image/webp" />
                 <img
                   src={locationImage}
-                  alt="Telšių senamiestis iš paukščio skrydžio: bažnyčia, pagrindinė aikštė ir raudoni stogai"
+                  alt="Pajūrio miestelis iš paukščio skrydžio: raudoni stogai, medžiai ir jūra"
                   loading="lazy"
                   decoding="async"
                   width={1400}

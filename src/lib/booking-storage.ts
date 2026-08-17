@@ -12,7 +12,7 @@ export type StoredBooking = {
   extras?: { name: string; amount?: number }[];
 };
 
-export const bookingStorageKey = (bookingNumber: string) => `dharma:booking:${bookingNumber}`;
+export const bookingStorageKey = (bookingNumber: string) => `baltic:booking:${bookingNumber}`;
 
 export function storeBooking(booking: StoredBooking) {
   try {

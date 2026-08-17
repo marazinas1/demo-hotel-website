@@ -1,7 +1,7 @@
 import { Link, type LinkProps } from "@tanstack/react-router";
 import type { ReactNode } from "react";
 
-import { Enso } from "@/components/site/Enso";
+import { Ring } from "@/components/site/Ring";
 import { Reveal } from "@/components/site/Reveal";
 import { cn } from "@/lib/utils";
 
@@ -62,7 +62,7 @@ export function PageHero({
         )}
       >
         <Reveal>
-          <Enso
+          <Ring
             className={cn("mx-auto h-9 w-9", hasImage ? "text-warm-white/60" : "text-sage/70")}
           />
           {eyebrow ? (

@@ -4,7 +4,7 @@ import { lt } from "date-fns/locale";
 import type { DateRange } from "react-day-picker";
 
 import { Calendar } from "@/components/ui/calendar";
-import { Enso } from "@/components/site/Enso";
+import { Ring } from "@/components/site/Ring";
 import { common } from "@/content/lt/common";
 import { cn } from "@/lib/utils";
 
@@ -66,7 +66,7 @@ export function AvailabilityCalendar({
   return (
     <div className={cn("rounded-2xl bg-warm-white p-6 shadow-soft sm:p-8", className)}>
       <div className="flex items-start gap-4">
-        <Enso className="mt-1 hidden h-8 w-8 shrink-0 text-sage sm:block" />
+        <Ring className="mt-1 hidden h-8 w-8 shrink-0 text-sage sm:block" />
         <div>
           <h2 className="font-display text-2xl font-medium text-ink">
             {common.stays.availabilityTitle}

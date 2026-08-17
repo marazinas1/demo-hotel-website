@@ -74,7 +74,7 @@ export function SiteHeader() {
       <div className="mx-auto grid max-w-7xl grid-cols-[minmax(0,1fr)_auto] items-center gap-4 px-6 py-2 lg:px-12 lg:py-3">
         <Link
           to="/"
-          aria-label="Dharma Stay — į pradžią"
+          aria-label="Baltic Stay — į pradžią"
           onClick={() => {
             if (pathname !== "/") return;
             const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -85,7 +85,7 @@ export function SiteHeader() {
             solid ? "text-ink" : "text-warm-white",
           )}
         >
-          <Logo className="h-24 w-24" />
+          <Logo className="h-16" />
         </Link>
 
         <div ref={navRef} className="flex items-center gap-6">
