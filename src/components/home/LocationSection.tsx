@@ -4,7 +4,7 @@ import { MapPin } from "lucide-react";
 
 import locationImage from "@/assets/location-telsiai-aerial.jpg";
 import locationImageWebp from "@/assets/location-telsiai-aerial.webp";
-import { EnsoDivider } from "@/components/site/Enso";
+import { RingDivider } from "@/components/site/Ring";
 import { Reveal } from "@/components/site/Reveal";
 import { contact } from "@/data/contact";
 
@@ -18,7 +18,7 @@ export function LocationSection() {
   return (
     <section id="vieta" className="scroll-mt-24 bg-warm-white px-6 py-24 lg:px-12 lg:py-32">
       <div className="mx-auto max-w-7xl">
-        <EnsoDivider className="mb-16" />
+        <RingDivider className="mb-16" />
 
         <div className="grid items-center gap-14 lg:grid-cols-2">
           <Reveal direction="left">

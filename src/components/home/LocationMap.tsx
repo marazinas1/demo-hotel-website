@@ -44,7 +44,7 @@ export default function LocationMap() {
       map.addControl(new NavigationControl({ showCompass: false }), "bottom-right");
 
       const el = document.createElement("div");
-      el.setAttribute("aria-label", "Dharma Stay – Birutės g. 1, Telšiai");
+      el.setAttribute("aria-label", "Baltic Stay – Birutės g. 1, Telšiai");
       el.style.width = "44px";
       el.style.height = "44px";
       el.innerHTML = `

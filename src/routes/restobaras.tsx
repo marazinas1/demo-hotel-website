@@ -24,7 +24,7 @@ export const Route = createFileRoute("/restobaras")({
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Restaurant",
-          name: "Dharma Stay restobaras",
+          name: "Baltic Stay restobaras",
           description: restobaras.seoDescription,
           url: `${SITE_URL}/restobaras`,
           telephone: (contact.phones[0] ?? "").replace(/\s/g, ""),
@@ -53,7 +53,7 @@ function RestobarPage() {
         lead={restobaras.lead}
         image={restobarasImage}
         imageWebp={restobarasImageWebp}
-        imageAlt="Dharma Stay restobaro salė Telšių senamiestyje"
+        imageAlt="Baltic Stay restobaro salė Telšių senamiestyje"
         crumbs={[{ label: "Pagrindinis", to: "/" }, { label: restobaras.title }]}
       />
       <PageSection>

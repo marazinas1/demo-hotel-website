@@ -12,7 +12,7 @@ import { pageHead } from "@/lib/seo";
 import { SITE_URL } from "@/data/nav";
 import { propertiesQuery } from "@/lib/property-queries";
 
-const title = "Dharma Stay — apartamentai ir namelis Telšiuose";
+const title = "Baltic Stay — apartamentai ir namelis Telšiuose";
 const description =
   "Boutique apgyvendinimas Telšių senamiestyje: apartamentai, apartamentai su terasa ir namelis su pirtimi bei kubilu. Rezervuokite tiesiogiai.";
 
@@ -25,10 +25,10 @@ export const Route = createFileRoute("/")({
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "LodgingBusiness",
-          name: "Dharma Stay",
+          name: "Baltic Stay",
           url: SITE_URL,
           description,
-          email: "info@dharmastay.lt",
+          email: "info@balticstay.lt",
           telephone: "+37065911929",
           address: {
             "@type": "PostalAddress",

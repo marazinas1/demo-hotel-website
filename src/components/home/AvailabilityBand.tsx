@@ -5,7 +5,7 @@ import { lt } from "date-fns/locale";
 import type { DateRange } from "react-day-picker";
 import { ArrowRight } from "lucide-react";
 
-import { Enso } from "@/components/site/Enso";
+import { Ring } from "@/components/site/Ring";
 import { Calendar } from "@/components/ui/calendar";
 import { common } from "@/content/lt/common";
 import { availabilityQuery } from "@/lib/availability-queries";
@@ -120,7 +120,7 @@ export function AvailabilityBand() {
           <div className="flex flex-col justify-center">
             {!ready ? (
               <div className="flex items-center gap-4 text-stone">
-                <Enso className="hidden h-8 w-8 shrink-0 text-sage sm:block" />
+                <Ring className="hidden h-8 w-8 shrink-0 text-sage sm:block" />
                 <p className="text-sm leading-relaxed">{common.availabilityBand.pickDates}</p>
               </div>
             ) : isError ? (

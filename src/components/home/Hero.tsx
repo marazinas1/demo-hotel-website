@@ -3,7 +3,7 @@ import { useEffect, useRef } from "react";
 
 import heroImage from "@/assets/hero-telsiai-lake.jpg";
 import heroImageWebp from "@/assets/hero-telsiai-lake.webp";
-import { Enso } from "@/components/site/Enso";
+import { Ring } from "@/components/site/Ring";
 import { AVAILABILITY_SECTION_ID, scrollToId } from "@/lib/scroll-to";
 
 export function Hero() {
@@ -87,7 +87,7 @@ export function Hero() {
         </div>
 
         <div className="mt-16 hidden justify-center lg:flex">
-          <Enso className="h-10 w-10 animate-[spin_18s_linear_infinite] text-warm-white/45" />
+          <Ring className="h-10 w-10 animate-[spin_18s_linear_infinite] text-warm-white/45" />
         </div>
       </div>
     </section>

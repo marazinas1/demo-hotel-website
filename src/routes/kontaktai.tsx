@@ -27,7 +27,7 @@ export const Route = createFileRoute("/kontaktai")({
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "LodgingBusiness",
-          name: "Dharma Stay",
+          name: "Baltic Stay",
           description: kontaktai.seoDescription,
           url: `${SITE_URL}/kontaktai`,
           email: contact.email,

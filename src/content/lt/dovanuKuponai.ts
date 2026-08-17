@@ -1,7 +1,7 @@
 export const dovanuKuponai = {
-  seoTitle: "Dovanų kuponai — Dharma Stay Telšiai",
+  seoTitle: "Dovanų kuponai — Baltic Stay Telšiai",
   seoDescription:
-    "Dovanų kuponai nakvynei Dharma Stay apartamentuose ar namelyje su pirtimi Telšiuose. Pasirinktos vertės, galioja 12 mėnesių.",
+    "Dovanų kuponai nakvynei Baltic Stay apartamentuose ar namelyje su pirtimi Telšiuose. Pasirinktos vertės, galioja 12 mėnesių.",
   eyebrow: "Dovanų kuponai",
   title: "Nakvynė kaip dovana",
   lead: "Kuponą galima dovanoti nakvynei, pirčiai su kubilu arba vakarienei restobare.",

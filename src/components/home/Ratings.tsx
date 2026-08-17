@@ -1,4 +1,4 @@
-import { EnsoFrame } from "@/components/site/Enso";
+import { RingFrame } from "@/components/site/Ring";
 import { Reveal } from "@/components/site/Reveal";
 
 const ratings = [
@@ -24,9 +24,9 @@ export function Ratings() {
           {ratings.map((rating, index) => (
             <Reveal key={rating.label} delay={index * 120}>
               <figure className="flex flex-col items-center text-center">
-                <EnsoFrame className="h-20 w-20">
+                <RingFrame className="h-20 w-20">
                   <span className="font-display text-xl text-ink">{rating.score}</span>
-                </EnsoFrame>
+                </RingFrame>
                 <figcaption className="mt-5 text-sm font-medium text-ink">{rating.label}</figcaption>
                 <p className="mt-2 max-w-xs text-sm leading-relaxed text-stone">{rating.note}</p>
               </figure>

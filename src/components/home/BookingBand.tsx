@@ -1,11 +1,11 @@
-import { Enso } from "@/components/site/Enso";
+import { Ring } from "@/components/site/Ring";
 import { AVAILABILITY_SECTION_ID, scrollToId } from "@/lib/scroll-to";
 
 export function BookingBand() {
   return (
     <section className="bg-sage px-6 py-24 text-warm-white lg:px-12">
       <div className="mx-auto flex max-w-3xl flex-col items-center text-center">
-        <Enso className="h-9 w-9 text-warm-white/60" />
+        <Ring className="h-9 w-9 text-warm-white/60" />
         <h2 className="mt-8 font-display text-[clamp(1.875rem,4.2vw,2.5rem)] leading-tight font-medium">
           Rezervuokite tiesiogiai
         </h2>

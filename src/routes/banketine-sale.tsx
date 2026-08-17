@@ -28,7 +28,7 @@ function BanquetPage() {
         lead={banketineSale.lead}
         image={banquetImage}
         imageWebp={banquetImageWebp}
-        imageAlt="Banketinė salė Dharma Stay kieme Telšiuose"
+        imageAlt="Banketinė salė Baltic Stay kieme Telšiuose"
         crumbs={[{ label: "Pagrindinis", to: "/" }, { label: banketineSale.title }]}
       />
       <PageSection>

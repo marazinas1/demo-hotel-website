@@ -1,6 +1,6 @@
 import { Link, createFileRoute } from "@tanstack/react-router";
 
-import { EnsoDivider } from "@/components/site/Enso";
+import { RingDivider } from "@/components/site/Ring";
 import { PageHero } from "@/components/site/PageHero";
 import { PageSection, Prose } from "@/components/site/Prose";
 import { Reveal } from "@/components/site/Reveal";
@@ -29,7 +29,7 @@ function SaunaPage() {
               <p key={paragraph}>{paragraph}</p>
             ))}
           </Prose>
-          <EnsoDivider className="my-12" />
+          <RingDivider className="my-12" />
           <Link
             to="/namelis"
             className="inline-flex rounded-full border border-sage px-6 py-3 text-sm font-medium text-sage transition-colors hover:bg-sage hover:text-warm-white"

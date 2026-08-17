@@ -3,7 +3,7 @@
  * serialized to `lt.json` and mirrored as `en.json` / `ru.json` later.
  */
 export const common = {
-  brand: "Dharma Stay",
+  brand: "Baltic Stay",
   tagline: "Iš namų į namus.",
   cta: {
     book: "Rezervuoti",

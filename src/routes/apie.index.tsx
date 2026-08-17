@@ -1,7 +1,7 @@
 import { Link, createFileRoute } from "@tanstack/react-router";
 import { ArrowRight } from "lucide-react";
 
-import { EnsoDivider } from "@/components/site/Enso";
+import { RingDivider } from "@/components/site/Ring";
 import { PageHero } from "@/components/site/PageHero";
 import { PageSection, Prose } from "@/components/site/Prose";
 import { Reveal } from "@/components/site/Reveal";
@@ -47,7 +47,7 @@ function AboutPage() {
           ))}
         </div>
 
-        <EnsoDivider className="my-16" />
+        <RingDivider className="my-16" />
 
         <Reveal>
           <Link

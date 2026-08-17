@@ -1,18 +1,18 @@
 export const legal = {
   rental: {
     path: "/taisykles",
-    seoTitle: "Paslaugų teikimo taisyklės — Dharma Stay",
+    seoTitle: "Paslaugų teikimo taisyklės — Baltic Stay",
     seoDescription:
-      "Dharma Stay nuomos ir paslaugų teikimo taisyklės: rezervacija, apmokėjimas, atšaukimas ir svečių atsakomybė.",
+      "Baltic Stay nuomos ir paslaugų teikimo taisyklės: rezervacija, apmokėjimas, atšaukimas ir svečių atsakomybė.",
     eyebrow: "Taisyklės",
     title: "Paslaugų teikimo taisyklės",
-    lead: "Sąlygos, kurios galioja rezervuojant apgyvendinimą Dharma Stay.",
+    lead: "Sąlygos, kurios galioja rezervuojant apgyvendinimą Baltic Stay.",
   },
   privacy: {
     path: "/privatumo-politika",
-    seoTitle: "Privatumo politika — Dharma Stay",
+    seoTitle: "Privatumo politika — Baltic Stay",
     seoDescription:
-      "Kaip Dharma Stay renka, naudoja ir saugo svečių asmens duomenis rezervacijos ir apgyvendinimo metu.",
+      "Kaip Baltic Stay renka, naudoja ir saugo svečių asmens duomenis rezervacijos ir apgyvendinimo metu.",
     eyebrow: "Privatumas",
     title: "Privatumo politika",
     lead: "Kaip tvarkome jūsų asmens duomenis.",
@@ -20,5 +20,5 @@ export const legal = {
   updatedAt: "Atnaujinta",
   unavailableTitle: "Turinys šiuo metu neprieinamas",
   unavailableText:
-    "Dokumento nepavyko įkelti. Parašykite info@dharmastay.lt — atsiųsime jį el. paštu.",
+    "Dokumento nepavyko įkelti. Parašykite info@balticstay.lt — atsiųsime jį el. paštu.",
 } as const;
