@@ -17,8 +17,11 @@ import { Route as DovanuKuponaiRouteImport } from './routes/dovanu-kuponai'
 import { Route as KontaktaiRouteImport } from './routes/kontaktai'
 import { Route as NamelisRouteImport } from './routes/namelis'
 import { Route as PrivatumoPolitikaRouteImport } from './routes/privatumo-politika'
+import { Route as RenginiaiRouteImport } from './routes/renginiai'
 import { Route as RestobarasRouteImport } from './routes/restobaras'
+import { Route as RestoranasRouteImport } from './routes/restoranas'
 import { Route as SaunaRouteImport } from './routes/sauna'
+import { Route as SpaRouteImport } from './routes/spa'
 import { Route as TaisyklesRouteImport } from './routes/taisykles'
 import { Route as ApartamentaiIndexRouteImport } from './routes/apartamentai.index'
 import { Route as ApartamentaiPropertyIdRouteImport } from './routes/apartamentai.$propertyId'
@@ -69,14 +72,29 @@ const PrivatumoPolitikaRoute = PrivatumoPolitikaRouteImport.update({
   path: '/privatumo-politika',
   getParentRoute: () => rootRouteImport,
 } as any)
+const RenginiaiRoute = RenginiaiRouteImport.update({
+  id: '/renginiai',
+  path: '/renginiai',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const RestobarasRoute = RestobarasRouteImport.update({
   id: '/restobaras',
   path: '/restobaras',
   getParentRoute: () => rootRouteImport,
 } as any)
+const RestoranasRoute = RestoranasRouteImport.update({
+  id: '/restoranas',
+  path: '/restoranas',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const SaunaRoute = SaunaRouteImport.update({
   id: '/sauna',
   path: '/sauna',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SpaRoute = SpaRouteImport.update({
+  id: '/spa',
+  path: '/spa',
   getParentRoute: () => rootRouteImport,
 } as any)
 const TaisyklesRoute = TaisyklesRouteImport.update({
@@ -136,8 +154,11 @@ export interface FileRoutesByFullPath {
   '/kontaktai': typeof KontaktaiRoute
   '/namelis': typeof NamelisRoute
   '/privatumo-politika': typeof PrivatumoPolitikaRoute
+  '/renginiai': typeof RenginiaiRoute
   '/restobaras': typeof RestobarasRoute
+  '/restoranas': typeof RestoranasRoute
   '/sauna': typeof SaunaRoute
+  '/spa': typeof SpaRoute
   '/taisykles': typeof TaisyklesRoute
   '/apartamentai/$propertyId': typeof ApartamentaiPropertyIdRoute
   '/apartamentai/standartiniai': typeof ApartamentaiStandartiniaiRoute
@@ -155,8 +176,11 @@ export interface FileRoutesByTo {
   '/kontaktai': typeof KontaktaiRoute
   '/namelis': typeof NamelisRoute
   '/privatumo-politika': typeof PrivatumoPolitikaRoute
+  '/renginiai': typeof RenginiaiRoute
   '/restobaras': typeof RestobarasRoute
+  '/restoranas': typeof RestoranasRoute
   '/sauna': typeof SaunaRoute
+  '/spa': typeof SpaRoute
   '/taisykles': typeof TaisyklesRoute
   '/apartamentai/$propertyId': typeof ApartamentaiPropertyIdRoute
   '/apartamentai/standartiniai': typeof ApartamentaiStandartiniaiRoute
@@ -177,8 +201,11 @@ export interface FileRoutesById {
   '/kontaktai': typeof KontaktaiRoute
   '/namelis': typeof NamelisRoute
   '/privatumo-politika': typeof PrivatumoPolitikaRoute
+  '/renginiai': typeof RenginiaiRoute
   '/restobaras': typeof RestobarasRoute
+  '/restoranas': typeof RestoranasRoute
   '/sauna': typeof SaunaRoute
+  '/spa': typeof SpaRoute
   '/taisykles': typeof TaisyklesRoute
   '/apartamentai/$propertyId': typeof ApartamentaiPropertyIdRoute
   '/apartamentai/standartiniai': typeof ApartamentaiStandartiniaiRoute
@@ -200,8 +227,11 @@ export interface FileRouteTypes {
     | '/kontaktai'
     | '/namelis'
     | '/privatumo-politika'
+    | '/renginiai'
     | '/restobaras'
+    | '/restoranas'
     | '/sauna'
+    | '/spa'
     | '/taisykles'
     | '/apartamentai/$propertyId'
     | '/apartamentai/standartiniai'
@@ -219,8 +249,11 @@ export interface FileRouteTypes {
     | '/kontaktai'
     | '/namelis'
     | '/privatumo-politika'
+    | '/renginiai'
     | '/restobaras'
+    | '/restoranas'
     | '/sauna'
+    | '/spa'
     | '/taisykles'
     | '/apartamentai/$propertyId'
     | '/apartamentai/standartiniai'
@@ -240,8 +273,11 @@ export interface FileRouteTypes {
     | '/kontaktai'
     | '/namelis'
     | '/privatumo-politika'
+    | '/renginiai'
     | '/restobaras'
+    | '/restoranas'
     | '/sauna'
+    | '/spa'
     | '/taisykles'
     | '/apartamentai/$propertyId'
     | '/apartamentai/standartiniai'
@@ -262,8 +298,11 @@ export interface RootRouteChildren {
   KontaktaiRoute: typeof KontaktaiRoute
   NamelisRoute: typeof NamelisRoute
   PrivatumoPolitikaRoute: typeof PrivatumoPolitikaRoute
+  RenginiaiRoute: typeof RenginiaiRoute
   RestobarasRoute: typeof RestobarasRoute
+  RestoranasRoute: typeof RestoranasRoute
   SaunaRoute: typeof SaunaRoute
+  SpaRoute: typeof SpaRoute
   TaisyklesRoute: typeof TaisyklesRoute
   RezervacijaPatvirtintaRoute: typeof RezervacijaPatvirtintaRoute
 }
@@ -326,6 +365,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof PrivatumoPolitikaRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/renginiai': {
+      id: '/renginiai'
+      path: '/renginiai'
+      fullPath: '/renginiai'
+      preLoaderRoute: typeof RenginiaiRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/restobaras': {
       id: '/restobaras'
       path: '/restobaras'
@@ -333,11 +379,25 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof RestobarasRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/restoranas': {
+      id: '/restoranas'
+      path: '/restoranas'
+      fullPath: '/restoranas'
+      preLoaderRoute: typeof RestoranasRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/sauna': {
       id: '/sauna'
       path: '/sauna'
       fullPath: '/sauna'
       preLoaderRoute: typeof SaunaRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/spa': {
+      id: '/spa'
+      path: '/spa'
+      fullPath: '/spa'
+      preLoaderRoute: typeof SpaRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/taisykles': {
@@ -447,8 +507,11 @@ const rootRouteChildren: RootRouteChildren = {
   KontaktaiRoute: KontaktaiRoute,
   NamelisRoute: NamelisRoute,
   PrivatumoPolitikaRoute: PrivatumoPolitikaRoute,
+  RenginiaiRoute: RenginiaiRoute,
   RestobarasRoute: RestobarasRoute,
+  RestoranasRoute: RestoranasRoute,
   SaunaRoute: SaunaRoute,
+  SpaRoute: SpaRoute,
   TaisyklesRoute: TaisyklesRoute,
   RezervacijaPatvirtintaRoute: RezervacijaPatvirtintaRoute,
 }
